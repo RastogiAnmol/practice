@@ -35,21 +35,22 @@ def display(s):
         count -= 1
 
 
-lst = [None] * 10
+stack = [None] * 10
 
-push(lst, 1)
-push(lst, 2)
-push(lst, 3)
-push(lst, 4)
-push(lst, 5)
-push(lst, 6)
-push(lst, 7)
-push(lst, 8)
-push(lst, 9)
-push(lst, 10)
+push(stack, 1)
+push(stack, 2)
+push(stack, 3)
+push(stack, 4)
+push(stack, 5)
+push(stack, 6)
+push(stack, 7)
+push(stack, 8)
+push(stack, 9)
+push(stack, 10)
+
 print("Before pop")
-display(lst)
-print("after popping element", pop(lst))
-display(lst)
-print("after popping another element", pop(lst))
-display(lst)
+display(stack)
+print("after popping element", pop(stack))
+display(stack)
+print("after popping another element", pop(stack))
+display(stack)
